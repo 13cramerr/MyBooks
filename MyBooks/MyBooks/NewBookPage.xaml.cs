@@ -16,5 +16,10 @@ namespace MyBooks
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            DisplayAlert("Success", "We have handled the click event", "Great!");
+        }
+    }
 }
